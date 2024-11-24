@@ -6,19 +6,19 @@ This project is a machine learning application that predicts rental prices for s
 
 ## Features
 
-- **Image-based Predictions**: Predicts rental prices using building images processed through a pre-trained ResNet50 model.
-- **Structured Data Integration**: Incorporates structured features like square footage, number of bedrooms, and neighborhood information.
-- **User-Friendly Web Interface**: A React frontend allows users to upload images and receive predictions.
-- **FastAPI Backend**: Processes image and structured data to make predictions.
+- **Image-based Predictions** - Predicts rental prices using building images processed through a pre-trained ResNet50 model
+- **Structured Data Integration** - Incorporates structured features like square footage, number of bedrooms, and neighborhood information
+- **User-Friendly Web Interface** - A React frontend allows users to upload images and receive predictions
+- **FastAPI Backend** - Processes image and structured data to make predictions
 
 ---
 
 ## Technologies Used
 
-- **Backend**: FastAPI, PyTorch
-- **Frontend**: React.js
-- **Data Preprocessing**: scikit-learn
-- **Deployment**: Uvicorn for backend API, npm for frontend development server
+- **Backend** - FastAPI, PyTorch
+- **Frontend** - React.js
+- **Data Preprocessing** - scikit-learn
+- **Deployment** - Uvicorn for backend API, npm for frontend development server
 
 ---
 
@@ -67,10 +67,10 @@ This project is a machine learning application that predicts rental prices for s
 ### Model Details
 #### Training
 The model combines:
-1. Image Features - Extracted using a pre-trained ResNet50.
-2. Structured Data Features - Scaled and one-hot encoded numerical and categorical data.
+1. **Image Features** - Extracted using a pre-trained ResNet50
+2. **Structured Data Features** - Scaled and one-hot encoded numerical and categorical data
 #### Saved Artifacts
-- price_estimator_model.pth - Trained PyTorch model weights.
-- scaler_price.pkl - MinMaxScaler used for scaling price values.
-- encoder_neighborhood.pkl - OneHotEncoder used for encoding neighborhood categories.
+- price_estimator_model.pth - Trained PyTorch model weights
+- scaler_price.pkl - MinMaxScaler used for scaling price values
+- encoder_neighborhood.pkl - OneHotEncoder used for encoding neighborhood categories
 
